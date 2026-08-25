@@ -1,0 +1,28 @@
+/* Identidade visual Impacto Academia */
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 2px solid #dc3545;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+.btn-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
