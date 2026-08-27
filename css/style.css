@@ -72,3 +72,16 @@ body {
 .badge {
     font-size: 0.8rem;
 }
+.accordion-button:not(.collapsed) {
+    background-color: #dc3545;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: 1px solid #dc3545;
+    margin-bottom: 10px;
+}  
