@@ -25,8 +25,6 @@ body {
     border-color: #dc3545;
 }
 
-
-
 .carousel-item img {
     width: 100%;
     height: auto;
@@ -84,4 +82,21 @@ body {
 .accordion-item {
     border: 1px solid #dc3545;
     margin-bottom: 10px;
-}  
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-color: #dc3545;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
