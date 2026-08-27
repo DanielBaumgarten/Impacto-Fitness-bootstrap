@@ -60,3 +60,15 @@ body {
     height: 250px;
     object-fit: cover;
 }
+
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.badge {
+    font-size: 0.8rem;
+}
